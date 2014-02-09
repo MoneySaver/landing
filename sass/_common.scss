@@ -1,0 +1,33 @@
+html{
+	height:100%;
+	body{
+		height:100%;
+		padding:0px;
+		font-family: 'Source Sans Pro', sans-serif;
+		background-image: url("../img/bg.jpg");
+		background-size: auto;
+		background-position: center 100px;
+		background-repeat: no-repeat;
+		.group:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		.wrapper{
+			width:90%;
+			margin-left: auto;
+			margin-right: auto;
+			min-height: 1500px;
+		}
+			
+		
+	}
+}
+
+
+/*
+ehk lää-heb vaja
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+ */

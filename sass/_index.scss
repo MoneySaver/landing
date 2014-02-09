@@ -1,0 +1,48 @@
+section.home{
+	padding-top: 150px;
+	p{
+		color: #fff;
+		font-size: 45pt;
+		font-weight: 200;
+		width: 500px;
+		line-height: 0.85;
+	}
+	article.intro{
+		margin-top: 450px;
+		p{
+			color: #504F53;
+			font-size: 28pt;
+			line-height: 1;
+			font-weight: 300;
+			width: 630px;
+			text-align: left;
+
+		}
+		h1{
+			color: #504F53;
+			font-weight: 300;
+			font-size: 40pt;
+		}
+	}
+	form{
+		width: 365px;
+		input{
+			width: 96%;
+			border:none;
+			height: 60px;
+			margin-bottom: 10px;
+			padding-left: 2%;
+			padding-right: 2%;
+			color: #00a5e1;
+			&::-webkit-input-placeholder{
+				color: #504F53;
+			}
+			&::-moz-placeholder{
+				color: #504F53;
+			}
+			&:-ms-input-placeholder{
+				color: #504F53;
+			}
+		}
+	}
+}
